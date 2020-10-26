@@ -1,0 +1,13 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  background-color: #f6f7fb;
+  /* F5 */
+  color: #262d39;
+  /* Dark */
+}
+/*# sourceMappingURL=App.css.map */
