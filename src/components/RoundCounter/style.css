@@ -1,0 +1,17 @@
+.round-counter {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  background-color: #0498fc;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
