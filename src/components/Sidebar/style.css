@@ -1,0 +1,21 @@
+.sidebar {
+  width: 341px;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #e5eaf0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 39px 22px 39px 23px;
+}
+
+.menu__separator {
+  margin: 14px auto 14px 27px;
+  width: 228px;
+  height: 0;
+  border-bottom: 1px solid #e5eaf0;
+}
