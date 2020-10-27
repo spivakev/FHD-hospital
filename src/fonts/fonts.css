@@ -54,3 +54,30 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("SFUIText-Regular.eot");
+  src: url("SFUIText-Regular.eot") format("embedded-opentype"), url("SFUIText-Regular.woff") format("woff"),
+    url("SFUIText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("SFUIText-Regular.eot");
+  src: url("SFUIText-Regular.eot") format("embedded-opentype"), url("SFUIText-Regular.woff") format("woff"),
+    url("SFUIText-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("SFUIText-Medium.eot");
+  src: url("SFUIText-Medium.eot") format("embedded-opentype"), url("SFUIText-Medium.woff") format("woff"),
+    url("SFUIText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
