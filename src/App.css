@@ -13,3 +13,7 @@ body {
   /* Dark */
 }
 /*# sourceMappingURL=App.css.map */
+
+.hide {
+  display: none;
+}
