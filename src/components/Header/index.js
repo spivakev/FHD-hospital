@@ -10,7 +10,7 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div className="header">
+      <header className="header">
         <div className="header__container header__wrapper">
           <div className="header__left">
             <HeaderIconSprite iconKey="logo" />
@@ -37,7 +37,7 @@ export default class Header extends Component {
           </div>
 
         </div>
-      </div>
+      </header>
     )
   }
 
