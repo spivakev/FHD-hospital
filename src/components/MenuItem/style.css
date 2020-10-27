@@ -1,0 +1,30 @@
+.menu-item {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  border-radius: 21px;
+  height: 70px;
+  width: 100%;
+}
+
+.menu-item:active,
+.menu-item--active {
+  background: #0498fc;
+  color: #fff;
+}
+
+.menu-item__icon {
+  margin-left: 25px;
+}
+
+.menu-item__text {
+  margin-left: 18px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
