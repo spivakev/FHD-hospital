@@ -1,0 +1,17 @@
+.header-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  background-color: #f6f7fb;
+  border-radius: 50%;
+}
+
+.header-icon__counter {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
