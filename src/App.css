@@ -5,10 +5,11 @@ body {
 }
 
 .app {
-  font-family: Golos, sans-serif;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 400;
   background-color: #f6f7fb;
   /* F5 */
-  height: 100vh;
+  /*height: 100vh;*/
   color: #262d39;
   /* Dark */
 }
