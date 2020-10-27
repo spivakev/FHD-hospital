@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeaderIcons = (props) => {
+const HeaderIconSprite = (props) => {
   let width = props.width;
   let height = props.height;
   let iconKey = props.iconKey;
@@ -40,5 +40,5 @@ const HeaderIcons = (props) => {
   return sprite[iconKey];
 };
 
-export default HeaderIcons;
+export default HeaderIconSprite;
 
