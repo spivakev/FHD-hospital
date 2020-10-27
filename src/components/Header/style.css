@@ -46,9 +46,9 @@
   border: none;
 
   background-image: url("../../img/icon-search.svg");
-  background-size: 22.2px;
+  background-size: 23px;
   background-repeat: no-repeat;
-  background-position: left 29px center;
+  background-position: left 27px top 19px;
 
   /*font-family: "SF Pro Text";*/
   font-style: normal;

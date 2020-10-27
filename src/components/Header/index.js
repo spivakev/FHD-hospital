@@ -11,7 +11,7 @@ export default class Header extends Component {
         <div className="header__container header__wrapper">
           <div className="header__left">
             <HeaderIcons iconKey="logo" />
-            <div className="header__title">MyData</div>
+            <div className="header__title">My Data</div>
           </div>
           <div className="header__right">
 
