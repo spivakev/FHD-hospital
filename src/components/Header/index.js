@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import HeaderIcons from '../HeaderIcons'
+import HeaderIconSprite from '../HeaderIconSprite'
+import HeaderIcon from '../HeaderIcon'
 import Avatar from '../Avatar'
 import './style.css'
 import avatar from '../../img/avatar.png'
@@ -12,7 +13,7 @@ export default class Header extends Component {
       <div className="header">
         <div className="header__container header__wrapper">
           <div className="header__left">
-            <HeaderIcons iconKey="logo" />
+            <HeaderIconSprite iconKey="logo" />
             <div className="header__title">My Data</div>
           </div>
           <div className="header__right">
@@ -22,13 +23,13 @@ export default class Header extends Component {
             </form>
 
             <div className="header__todo header__icon">
-              <HeaderIcons iconKey="todo" />
+              <HeaderIcon iconKey="todo" notificationCount="5" />
             </div>
             <div className="header__chat header__icon">
-              <HeaderIcons iconKey="chat" />
+              <HeaderIcon iconKey="chat" notificationCount="2" />
             </div>
             <div className="header__notification header__icon">
-              <HeaderIcons iconKey="notification" />
+              <HeaderIcon iconKey="notification" notificationCount="1" />
             </div>
             <div className="header__avatar">
               <Avatar src={avatar} size="52" />
